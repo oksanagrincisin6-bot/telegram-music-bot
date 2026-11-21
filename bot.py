@@ -24,5 +24,3 @@ def search_music(message):
         url=url
     ))
     bot.reply_to(message, "Ось пошук твоєї пісні:", reply_markup=keyboard)
-
-bot.infinity_polling()
